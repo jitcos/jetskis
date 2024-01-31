@@ -19,7 +19,7 @@ RUN add-apt-repository ppa:longsleep/golang-backports -y
 RUN apt-get install micro mosh tmux curl \
   htop awscli ffmpeg git zsh nano wget \
   dialog golang-go golang-easyjson btop \
-  unzip p7zip-full p7zip-rar gpg -y
+  unzip p7zip-full p7zip-rar gpg playerctl -y
 
 # Install dev packages
 RUN apt-get install build-essential libssl-dev zlib1g-dev \
